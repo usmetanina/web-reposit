@@ -60,10 +60,13 @@ p, i, strong
 	color:black;
 	background-color:#ff0000;
 	margin-top:20%;
-	font-weight:500
+	font-weight:500;
+	border-width: 7px;
+	border-color:#ff0000;
+	border-style:inset
 }
 .startgame
 {
 	margin-top:25%;
-	margin-left:5%;
+	margin-left:5%
 }
