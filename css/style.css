@@ -1,6 +1,6 @@
 * {
 	font-family:initial;
-	font-size:-webkit-xxx-large;
+	font-size:x-large;
 	color:black
 }
 
@@ -10,25 +10,33 @@ body {
    }
 
 .mainmenu {
+    list-style:none;
 	display:inline-block
 }
-.mainmenu ul {
-    list-style:none;
 
-}
-.mainmenu ul li {
+.mainmenu__items {
     position:relative;
-    float:left;
-	color:gray
+    float:left
 }
+
 a {
     text-decoration:none;
-    padding:4px 50px
+    padding:4px 50px;
+	font-size:-webkit-xxx-large
 }
-.mainmenu ul li a:hover {
+.mainmenu__items a:hover {
     background-color:#ff0000;
     color:#ffffff
 }
+.mainmenu__items__active{
+	position:relative;
+    float:left;
+	pointer-events: none
+}
+.mainmenu__items__active a{
+	color:gray
+}
+
 .logo {
 	display:inline-block;
 	margin:20px;
@@ -42,22 +50,13 @@ a {
 	color: #ff0000;
 	font-weight:900
 }
-p, i, strong
-{
-	font-size: large
-}
-.toplist ol li
-{
-	font-size: x-large;
-	color:black
-}
-.toplist  ol
+
+.toplist 
 {
 	margin-left:13%
 }
 .startgame a
 {
-	color:black;
 	background-color:#ff0000;
 	margin-top:20%;
 	font-weight:500;
