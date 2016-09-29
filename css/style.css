@@ -14,7 +14,7 @@ body {
 	display:inline-block
 }
 
-.mainmenu__items {
+.mainmenu__item {
     position:relative;
     float:left
 }
@@ -24,16 +24,14 @@ a {
     padding:4px 50px;
 	font-size:-webkit-xxx-large
 }
-.mainmenu__items a:hover {
+.mainmenu__item a:hover {
     background-color:#ff0000;
     color:#ffffff
 }
-.mainmenu__items__active{
-	position:relative;
-    float:left;
+.mainmenu__item__active{
 	pointer-events: none
 }
-.mainmenu__items__active a{
+.mainmenu__item__active a{
 	color:gray
 }
 
